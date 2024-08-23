@@ -1,0 +1,24 @@
+/* Общие стили */
+
+html::-webkit-scrollbar {
+    width: 20px;
+    background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: var(--standard_color_black);
+    border-radius: 10px;
+    border: 6px solid transparent;
+    background-clip: padding-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg_color_main);
+    font-family: "Roboto", sans-serif;
+}

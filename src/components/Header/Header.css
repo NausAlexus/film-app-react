@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: var(--bg_color_header);
+    box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.header h1 {
+    text-transform: uppercase;
+    font-size: var(--font_header_size);
+    font-weight: var(--font_header_weight);
+    letter-spacing: 12px;
+    margin-top: 30px;
+    color: var(--text_color_header);
+}

@@ -1,0 +1,78 @@
+.item-container {
+    margin-bottom: 20px;
+    display: flex;
+    background: var(--bg_color_film_card);
+}
+
+.text-container {
+    padding: 32px 0 32px 24px;
+}
+
+.poster-container {
+    min-width: 168px;
+    background: var(--standard_color_grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.poster-img {
+    width: 112px;
+    height: 168px;
+}
+
+.titel-time-container {
+    display: flex;
+    align-items: center;
+}
+
+.link-film {
+    text-decoration: none;
+    color: var(--standard_color_white);
+    font-size: 36px;
+    font-weight: 900;
+    transition: opacity 0.7s ease;
+}
+
+.link-film:hover {
+    opacity: 0.6;
+}
+
+.film-year-genres {
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: var(--text_color_card_film);
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.director {
+    text-transform: uppercase;
+    margin-top: 8px;
+    color: var(--text_color_card_film);
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.actor {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: var(--text_color_card_film);
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.actor-list {
+    display: inline;
+    color: var(--standard_color_white);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.description-film {
+    margin-top: 16px;
+    color: var(--standard_color_white);
+    font-size: 20px;
+    font-weight: 400;
+}

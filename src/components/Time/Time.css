@@ -1,0 +1,21 @@
+.film-time {
+    border-bottom: 30px solid var(--standard_color_grey);
+    border-left: 10px solid transparent;
+    height: 0;
+    width: 184px;
+    color: var(--standard_color_black);
+    font-size: 12px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.time-text {
+    margin-top: 9px;
+}
+
+.time-img {
+    margin-left: 12px;
+    margin-top: 6px;
+}

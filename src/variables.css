@@ -1,0 +1,19 @@
+/* Переменные */
+
+:root {
+    --standard_color_white: #FFFFFF;
+    --standard_color_black: #000000;
+    --standard_color_grey: #C4C4C4;
+
+    --text_color_header: #000000;
+    --text_color_main: #FFFFFF;
+    --text_color_card_film: #988F8F;
+
+    --bg_color_header: #FA2828;
+    --bg_color_main: #363232;
+    --bg_color_checkbox: #FF5252;
+    --bg_color_film_card: #4D4747;
+
+    --font_header_size:  48px;
+    --font_header_weight:  900;
+}
